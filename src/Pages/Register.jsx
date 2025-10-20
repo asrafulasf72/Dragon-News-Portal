@@ -8,8 +8,8 @@ const Register = () => {
   const handelRegister=(e)=>{
     e.preventDefault();
     const form=e.target
-    const name=form.name.value;
-    const photo=form.photo.value;
+    // const name=form.name.value;
+    // const photo=form.photo.value;
     const email=form.email.value;
     const password=form.password.value;
     // console.log("The Form Value Is: ",{name,photo,email,password})
